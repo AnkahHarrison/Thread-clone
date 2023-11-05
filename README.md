@@ -12,7 +12,21 @@ yarn dev
 pnpm dev
 # or
 bun dev
+
+
+
+
 ```
+
+NEXT*PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test*
+CLERK*SECRET_KEY=sk_test*
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+
+MONGODB_URL =mongodb+srv://<databaseName>:<password>@cluster0.f6rme3g.mongodb.net/?retryWrites=true&w=majority
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
