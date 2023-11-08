@@ -1,4 +1,4 @@
-import AccountProfile from "@/components/shared/AccountProfile";
+import AccountProfile from "@/components/shared/form/AccountProfile";
 import { currentUser } from "@clerk/nextjs";
 
 async function Page() {

@@ -14,6 +14,7 @@ import {
   FormField,
   FormItem,
   FormLabel,
+  FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -128,6 +129,7 @@ const AccountProfile = ({ user, btnTitle }: UserDetails) => {
                   onChange={(e) => handleImage(e, field.onChange)}
                 />
               </FormControl>
+              <FormMessage />
             </FormItem>
           )}
         />
@@ -146,6 +148,7 @@ const AccountProfile = ({ user, btnTitle }: UserDetails) => {
                   {...field}
                 />
               </FormControl>
+              <FormMessage />
             </FormItem>
           )}
         />
@@ -164,6 +167,7 @@ const AccountProfile = ({ user, btnTitle }: UserDetails) => {
                   {...field}
                 />
               </FormControl>
+              <FormMessage />
             </FormItem>
           )}
         />
@@ -182,6 +186,7 @@ const AccountProfile = ({ user, btnTitle }: UserDetails) => {
                   {...field}
                 />
               </FormControl>
+              <FormMessage />
             </FormItem>
           )}
         />

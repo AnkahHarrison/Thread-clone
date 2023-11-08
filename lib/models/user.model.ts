@@ -5,6 +5,7 @@ const userSchema = new mongoose.Schema({
   username: { type: String, required: true, unique: true },
   name: { type: String, required: true },
   image: String,
+  bio: String,
   thread: [
     {
       type: mongoose.Schema.Types.ObjectId,
